@@ -90,6 +90,51 @@ The ontology used to represent the Warden's world is intentionally minimal and m
 
 ---
 
+## Provenance
+
+Every durable fact should remain traceable to the observation or decision through which it entered the World Model.
+
+Provenance may identify:
+
+- an explicit Living Input;
+- a Warden-confirmed inference;
+- an approved external source;
+- previously established durable knowledge from which new understanding was derived.
+
+Provenance supports:
+
+- correction;
+- reconciliation;
+- confidence assessment;
+- explanation of reasoning.
+
+Provenance does not make conversation history part of the World Model.
+
+The World Model preserves the origin of understanding rather than the dialogue that produced it.
+
+---
+
+## Reconciliation over Replacement
+
+Durable knowledge evolves through reconciliation.
+
+When newly admitted understanding conflicts with existing knowledge, RealMe should not preserve both as simultaneously current truth unless the apparent contradiction reflects valid context.
+
+Reconciliation may:
+
+- correct an existing fact;
+- supersede previously valid knowledge;
+- end or replace a relationship;
+- update status;
+- preserve historical validity where useful;
+- leave the contradiction unresolved pending clarification.
+
+Correction should preserve continuity and provenance.
+
+Previously valid knowledge should not be silently erased when its history remains useful for future reasoning.
+
+---
+
 # Ontology
 
 The World Model represents durable concepts as typed nodes connected through typed relationships.
@@ -145,6 +190,7 @@ Examples include:
 - priority
 - timestamps
 - confidence
+- provenance
 
 Properties describe existing concepts.
 
