@@ -157,6 +157,22 @@ Information may affect:
 - Current State
 - Chronicles
 
+Entity classification must originate from either:
+
+- the existing World Model;
+- explicit Living Inputs.
+
+RealMe must never invent:
+
+- Realms;
+- Domains;
+- Projects;
+- entity relationships;
+
+solely to complete a classification.
+
+When classification remains uncertain, the information should remain unresolved until sufficient evidence becomes available.
+
 ---
 
 # Reconciliation
@@ -176,11 +192,66 @@ Determine whether the Living Input:
 - updates relationships;
 - changes World Model state.
 
+When candidate knowledge conflicts with existing knowledge, reconciliation determines whether the new information:
+
+- corrects an earlier understanding;
+- supersedes previously valid knowledge;
+- applies only within a different context;
+- represents a temporary exception;
+- remains unresolved.
+
+Material contradictions requiring human judgment should be surfaced for clarification rather than resolved implicitly.
+
 Reconciliation produces a Candidate World Model Update.
 
 Straightforward factual updates may proceed automatically.
 
 Durable inferred understanding may require review before admission into the World Model.
+
+---
+
+# Knowledge Admission
+
+Reconciliation determines whether interpreted information should become durable knowledge.
+
+A Candidate World Model Update is classified as one of the following.
+
+## Explicit Knowledge
+
+Information directly stated by the Warden as fact.
+
+Explicit knowledge may normally be admitted automatically when:
+
+- its meaning is sufficiently clear;
+- it does not materially contradict existing knowledge;
+- it is expected to remain useful beyond the current interaction.
+
+## Confirmed Inference
+
+An interpretation proposed by RealMe and explicitly confirmed by the Warden.
+
+Confirmed inference may be admitted as durable knowledge.
+
+## Working Hypothesis
+
+An interpretation that may improve current reasoning but has not been confirmed.
+
+A Working Hypothesis:
+
+- remains distinguishable from durable knowledge;
+- must not be represented as fact;
+- must not silently become part of the World Model;
+- may be retained temporarily in Application State when useful.
+
+## Unresolved Information
+
+Information whose meaning or classification remains materially ambiguous.
+
+Unresolved information must not be admitted until clarified.
+
+## Admission Principle
+
+Durable knowledge enters the World Model only when its expected future value exceeds the risk of preserving an incorrect interpretation.
 
 ---
 
@@ -211,7 +282,7 @@ It is:
 - continuously updated;
 - free from interpretation and reflection.
 
-Every accepted Living Input appends to the Operational Record.
+Every accepted Living Input that changes or records the factual state of the current operational day appends to the Operational Record.
 
 The Operational Record is the authoritative source for operational history.
 
